@@ -7,6 +7,7 @@ if (($handle = fopen("xandys.csv", "r")) !== FALSE) {
     }
     fclose($handle);
 }
+//test script
 //print_r($cities);
 //echo $cities["NY, NEW YORK"];
 ?>

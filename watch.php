@@ -10,7 +10,7 @@
 		)
 	);
 	//We're going to store the data in the database, so, let's open a connection:
-	$db = mysql_connect('mysql.visualspark.com', 'britinva', 'cowlishaw13');
+	$db = mysql_connect('mysql.visualspark.com', 'britinva', 'xxxxxxxx');
 	mysql_select_db('britinva_wopr', $db);
 
 	$context = stream_context_create($opts);

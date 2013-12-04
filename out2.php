@@ -2,7 +2,7 @@
 	$startingid = $_GET["id"];
 	$i = $_GET["i"];
 	
-	$db = mysql_connect('mysql.visualspark.com', 'britinva', 'cowlishaw13');
+	$db = mysql_connect('mysql.visualspark.com', 'britinva', 'xxxxxxxx');
 	mysql_select_db('britinva_wopr', $db);
 
 	$select = "SELECT * FROM tweets";
